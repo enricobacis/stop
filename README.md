@@ -17,6 +17,22 @@ Show the most common stdin entries from a pipe.
 
 ## Example
 
-The script [`test/test.py`](test/test.py) prints gaussian data. Pipe it into `stop` to see the most common values:
+The script [`test/test.py`](test/test.py) prints gaussian data with mean *100*. Pipe it into `stop` to see the most common values and their count:
 
     test/test.py | ./stop.py
+
+Output:
+
+    1107  108
+    1097  100
+    1082  97
+    1057  99
+    1056  93
+    1050  113
+    1047  114
+    1043  106
+    1038  104
+    1037  91
+    1036  92
+    1035  101
+
